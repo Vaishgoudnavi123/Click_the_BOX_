@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click the Box Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-header">
+    <h1>Click the Box Game</h1>
+    <p>Test your reflexes! Click the box before time runs out!</p>
+  </div>
+
+  <div class="game-container">
+    <div class="info">
+      <div id="score">Score: 0</div>
+      <div id="timer">Time Left: 30s</div>
+    </div>
+    <div id="box"></div>
+    <div id="game-over" class="hidden">
+      <h2>Game Over!</h2>
+      <p>Your final score is: <span id="final-score"></span></p>
+      <button id="restart-btn">Restart</button>
+    </div>
+  </div>
+
+  <!-- Footer for design credit -->
+  <footer>
+    <p>Designed by Sudagani Vaishnavi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
